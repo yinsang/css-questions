@@ -1,0 +1,35 @@
+.try {
+  outline: 1px solid green;
+  border: 10px solid pink;
+  .child {
+    outline: 1px solid red;
+
+    padding-top: 20px;
+  }
+
+  // 这里填写
+}
+.box {
+  outline: 1px solid red;
+
+  .try-answer {
+    margin-top: 10px;
+    .child {
+      outline: 1px solid red;
+
+      margin-top: 20px;
+    }
+
+    // 这里填写
+  }
+}
+.try-answer1 {
+  outline: 1px solid green;
+  border: 10px solid red;
+  .child-wrapper {
+    padding-top: 20px;
+  }
+  .child {
+    background: pink;
+  }
+}

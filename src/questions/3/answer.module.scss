@@ -1,0 +1,16 @@
+.answer {
+  span {
+    outline: 1px solid red;
+  }
+  .unbind {
+    color: red;
+  }
+}
+.answer-error {
+  span {
+    outline: 1px solid red;
+  }
+  & span:nth-child(2) {
+    color: red;
+  }
+}

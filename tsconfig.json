@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "module": "esnext",
+    "target": "es5",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "typeRoots": [
+      "typing"
+    ],
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "src/*": [
+        "src/*"
+      ],
+      "@components/*": [
+        "src/components/*"
+      ],
+      "@pages/*": [
+        "./src/pages/*"
+      ],
+      "@configs/*": [
+        "./src/configs/*"
+      ],
+      "@helpers/*": [
+        "./src/helpers/*"
+      ],
+      "typings/": [
+        "typing"
+      ]
+    },
+    "allowJs": true
+  }
+}

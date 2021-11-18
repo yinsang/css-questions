@@ -1,8 +1,8 @@
 {
-  "assets":{
-    "type":"command",
-    "command":{
-      "cmd":[
+  "assets": {
+    "type": "command",
+    "command": {
+      "cmd": [
         "tnpm ii",
         "tnpm run publish",
         "mv ./dist $BUILD_DEST"

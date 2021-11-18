@@ -1,0 +1,19 @@
+{
+  "usesTypeScript": true,
+  "usesCssModule": false,
+  "cssPreprocessor": "scss",
+  "testLibrary": "None",
+  "component": {
+    "default": {
+      "path": "src/questions",
+      "customTemplates": {
+        "component": "./componentTemplate/index.tsx",
+        "style": "./componentTemplate/index.module.scss"
+      },
+      "withStyle": true,
+      "withTest": false,
+      "withStory": false,
+      "withLazy": false
+    }
+  }
+}
