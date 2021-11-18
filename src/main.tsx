@@ -11,7 +11,7 @@ import { questions } from './question-config';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <Route path='/' component={Menu} exact />
       {
         questions.map(({ component, AnswerComponent, title }, index) => (
@@ -27,7 +27,7 @@ ReactDOM.render(
           />
         ))
       }
-    </BrowserRouter>
+    </HashRouter>
     <div style={{
       position: 'fixed',
       bottom: '10px',
