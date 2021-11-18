@@ -3,9 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.scss';
 
 import { Routes, HashRouter, BrowserRouter, Route, Link } from 'react-router-dom';
-import Question0 from './questions/0';
-// import Question1 from './questions/1';
-// import Question2 from './questions/2';
 import Menu from './Menu';
 import QuestionWrapper from './QuestionWrapper';
 import { questions } from './question-config';
