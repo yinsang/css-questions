@@ -15,6 +15,7 @@ const path = require('path');
 const plugins = [];
 if (process.env.NODE_ENV === 'production') {
   // 打包依赖展示
+  // https://dev.g.alicdn.com/bloom-pages/css-questions-184/assets/index.41437bad.css
   // plugins.push(
   //     visualizer({
   //         gzipSize: true,
@@ -22,7 +23,16 @@ if (process.env.NODE_ENV === 'production') {
   //     })
   // );
 }
+let base = {};
+if (process.env.NODE_ENV === 'production') {
+  base = {
+
+    base: 'https://dev.g.alicdn.com/bloom-pages/css-questions-184'
+  };
+}
+
 export default defineConfig({
+  ...base,
   resolve: {
     alias: [
       {
