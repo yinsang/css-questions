@@ -38,5 +38,5 @@ ReactDOM.render(
     >copyright by yinpeng.wyp@alibaba-inc.com
     </div>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('app')
 );

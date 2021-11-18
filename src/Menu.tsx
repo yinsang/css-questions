@@ -2,9 +2,7 @@ import React from 'react';
 import { Router, Routes, BrowserRouter, Route, Switch, Link, useLocation } from 'react-router-dom';
 import supportsColor from 'supports-color';
 import { questions } from './question-config';
-import chalk from 'chalk';
 
-console.log(chalk.supportsColor);
 
 export default () => {
   // const routers = useRoutes()
