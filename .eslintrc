@@ -1,0 +1,31 @@
+{
+  "parser": "babel-eslint",
+  "extends": "eslint-config-ali/react",
+  // 支持 JSON 格式文件检查
+  "plugins": ["json"],
+  "globals": {
+      "window": true,
+      "document": true,
+      // "ENV_TYPE": true,
+      "WEB_VERSION": "",
+      "ROUTE_BASE_PATH": true
+  },
+  "rules": {
+      // JSX 属性单引号(默认双引号)
+      "jsx-quotes": ["error", "prefer-single"],
+      // {} 内要有空格(默认无空格)
+      "object-curly-spacing": ["error", "always"],
+      // 缩进 2 个空格(默认是4个空格)
+      "indent": ["error", 2],
+      // 允许写 href="javascript:void(0)"
+      "no-script-url": ["warn"],
+      // JSX 缩进 2个空格（默认4个空格）
+      "react/jsx-indent": ["error", 2],
+      // JSX 属性 2个空格（默认4个空格）
+      "react/jsx-indent-props": ["error", 2],
+      // 数组和对象键值对最后不带末尾的逗号（默认：必须带末尾的逗号)
+      "comma-dangle": ["error", "never"],
+      // json 文件允许注释
+      "json/*": ["error", {"allowComments": true}]
+  }
+}

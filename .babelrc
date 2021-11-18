@@ -1,0 +1,39 @@
+{
+  "presets": [
+    "@babel/preset-react",
+    [
+      "@babel/preset-env",
+      {
+          "modules": false
+      }
+    ]
+  ],
+  "plugins": [
+    "@babel/plugin-transform-object-assign",
+    "@babel/plugin-syntax-dynamic-import",
+    "@babel/plugin-proposal-object-rest-spread",
+    "@babel/plugin-proposal-class-properties",
+    [
+      "@babel/plugin-transform-runtime",
+      {
+        "helpers": true,
+        "regenerator": true
+      }
+    ],
+    // 暂时使用 css-loader 开启 css-modules
+    [
+      "babel-plugin-react-css-modules",
+      {
+        "generateScopedName": "[local]-[hash:base64:5]",
+        // "exclude": "node_modules",
+        "webpackHotModuleReloading": true,
+        "filetypes": {
+          ".scss": {
+            "syntax": "postcss-scss"
+          }
+        }
+      }
+    ]
+  ],
+  "comments": false
+}
