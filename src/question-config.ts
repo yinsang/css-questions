@@ -15,13 +15,19 @@ import Question6 from './questions/6';
 import Answer6 from './questions/6/answer';
 import Question7 from './questions/7';
 import Answer7 from './questions/7/answer';
+import Question8 from './questions/8';
+import Answer8 from './questions/8/answer';
+import Question9 from './questions/9';
+import Answer9 from './questions/9/answer';
+import Question10 from './questions/9';
+import Answer10 from './questions/9/answer';
 
 export const questions = [
   {
     title: '考察box-sizing。将div设置为：总宽为100px的盒子。两个解法',
     answer: '',
     component: Question0,
-    AnswerComponent: Answer1,
+    AnswerComponent: Answer0,
     tips: [
       'https://developer.mozilla.org/zh-CN/docs/Web/CSS/box-sizing'
     ]
@@ -90,8 +96,28 @@ export const questions = [
     component: Question7,
     AnswerComponent: Answer7,
     tips: [
-
-      ''
+      'https://developer.mozilla.org/zh-CN/docs/Web/CSS/height'
+    ]
+  },
+  {
+    title: '学会flex的基础用法。一行两列',
+    answer: '',
+    component: Question8,
+    AnswerComponent: Answer8,
+    tips: [
+      'https://www.ruanyifeng.com/blog/2015/07/flex-grammar.html',
+      'https://developer.mozilla.org/zh-CN/docs/Web/CSS/flex'
+    ]
+  },
+  {
+    title: '实现图片在div的最右侧',
+    answer: '',
+    component: Question9,
+    AnswerComponent: Answer9,
+    tips: [
+      'https://www.ruanyifeng.com/blog/2015/07/flex-grammar.html',
+      'https://developer.mozilla.org/zh-CN/docs/Web/CSS/flex',
+      'https://developer.mozilla.org/zh-CN/docs/Web/CSS/margin'
     ]
   }
 ];

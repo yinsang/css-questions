@@ -1,0 +1,9 @@
+.try {
+  background: #8e8fce;
+  // 不用写什么
+  display: flex;
+  .child {
+    flex: 1;
+    outline: 1px solid red;
+  }
+}

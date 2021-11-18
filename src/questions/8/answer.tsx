@@ -22,22 +22,13 @@ const Box = ({ answerClass }: Props) => {
   // classVariables
   // render
   return (
-    <div className='' styleName='Box'>
+    <div className='box'>
       <h3>
-        line-height 可以为字体倍数，一般设置1.2～1.5之间。通常是同时设置font-size后line-height。以达到自动撑起高度的目的
+        在flex的盒模型中，子元素 flex:1 会平分盒子宽度。试试一个是2一个是1 呢？
       </h3>
-      <div styleName='answer'>
-        1
-      </div>
-      <h3>
-        line-height 可以为固定px。固定px一般不建议使用，会导致用户设置字体太大时导致变形或堆积
-      </h3>
-      <div styleName='answer1'>
-        1
-      </div>
-      <br />
-      <div styleName='answer1-error'>
-        1
+      <div styleName='try'>
+        <div styleName='child'>1</div>
+        <div styleName='child'>2</div>
       </div>
     </div>
   );

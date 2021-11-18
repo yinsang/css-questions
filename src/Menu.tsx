@@ -8,7 +8,7 @@ export default () => {
   // const routers = useRoutes()
   return (
     <div>
-      Less is more.
+      Less is more. Useless is wrong.
       <ol start={0}>
         {
           questions.map(({ title }, index) => (

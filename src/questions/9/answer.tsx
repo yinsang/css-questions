@@ -22,22 +22,13 @@ const Box = ({ answerClass }: Props) => {
   // classVariables
   // render
   return (
-    <div className='' styleName='Box'>
+    <div className='box'>
       <h3>
-        line-height 可以为字体倍数，一般设置1.2～1.5之间。通常是同时设置font-size后line-height。以达到自动撑起高度的目的
+        flex和margin-left:auto 结合可以使元素右对齐。具体原因可以自己研究。
+        为什么不用float呢？float脱离了文档流。会造成各种各样的问题，可以自己研究。
       </h3>
-      <div styleName='answer'>
-        1
-      </div>
-      <h3>
-        line-height 可以为固定px。固定px一般不建议使用，会导致用户设置字体太大时导致变形或堆积
-      </h3>
-      <div styleName='answer1'>
-        1
-      </div>
-      <br />
-      <div styleName='answer1-error'>
-        1
+      <div styleName='try'>
+        <img styleName='head-img' src='https://img0.baidu.com/it/u=1489807627,808259306&amp;fm=26&amp;fmt=auto&amp;gp=0.jpg' alt='' />
       </div>
     </div>
   );
