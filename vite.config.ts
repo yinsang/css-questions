@@ -27,7 +27,7 @@ let base = {};
 if (process.env.NODE_ENV === 'production') {
   base = {
 
-    base: 'https://dev.g.alicdn.com/bloom-pages/css-questions-184'
+    base: 'https://dev.g.alicdn.com/bloom-pages/css-questions-184/'
   };
 }
 
