@@ -11,6 +11,10 @@ import Question4 from './questions/4';
 import Answer4 from './questions/4/answer';
 import Question5 from './questions/5';
 import Answer5 from './questions/5/answer';
+import Question6 from './questions/6';
+import Answer6 from './questions/6/answer';
+import Question7 from './questions/7';
+import Answer7 from './questions/7/answer';
 
 export const questions = [
   {
@@ -60,12 +64,34 @@ export const questions = [
     ]
   },
   {
-    title: '设置字体字重',
+    title: '设置字体字重为加粗',
     answer: '',
     component: Question5,
     AnswerComponent: Answer5,
     tips: [
       'https://developer.mozilla.org/zh-CN/docs/Web/CSS/font-weight'
+    ]
+  },
+  {
+    title: '设置div的宽度自动撑满',
+    answer: '',
+    component: Question6,
+    AnswerComponent: Answer6,
+    tips: [
+
+      'https://developer.mozilla.org/zh-CN/docs/Web/CSS/width',
+      'https://www.zhangxinxu.com/wordpress/2010/10/%e9%a1%b5%e9%9d%a2%e9%87%8d%e6%9e%84%e2%80%9c%e9%91%ab%e4%b8%89%e6%97%a0%e5%87%86%e5%88%99%e2%80%9d-%e4%b9%8b%e2%80%9c%e6%97%a0%e5%ae%bd%e5%ba%a6%e2%80%9d%e5%87%86%e5%88%99/',
+      'https://www.zhangxinxu.com/wordpress/2018/07/css-width-auto/'
+    ]
+  },
+  {
+    title: '高度的自动撑起。将div设置为100px高，图片设置为50px高',
+    answer: '',
+    component: Question7,
+    AnswerComponent: Answer7,
+    tips: [
+
+      ''
     ]
   }
 ];
