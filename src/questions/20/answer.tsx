@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import './answer.module.scss';
+import './global-reset.scss';
 import { useLocation } from 'react-router-dom';
 import { log, request, setSearchParams, getSearchParams } from '@ali/sm-toolkit';
 
@@ -24,18 +24,14 @@ const Box = ({ answerClass }: Props) => {
   return (
     <>
       <h3>
-        flex大法好！
+        一般一个项目的reset是通用的。例如某个button不需要outline和border；
+        不应该每个button都写一遍
+        outline:none;
+        border:none;
       </h3>
-      <div styleName='try try0'>
-        <img styleName='head-img' src='https://cdn.sm.cn/static/21/06/25/f1592238c6c424684c95e3bdc4178c83.png' alt='' />
+      <div className='root' styleName='try'>
+        <button>确定</button>
       </div>
-      <h3>
-        absolute maigin auto;
-      </h3>
-      <div styleName='try try1'>
-        <img styleName='head-img' src='https://cdn.sm.cn/static/21/06/25/f1592238c6c424684c95e3bdc4178c83.png' alt='' />
-      </div>
-      其他办法也有，但一般上面两种就解决了。兼容性也好，副作用也小。
     </>
   );
 };

@@ -35,6 +35,13 @@ import Question16 from './questions/16';
 import Answer16 from './questions/16/answer';
 import Question17 from './questions/17';
 import Answer17 from './questions/17/answer';
+import Question18 from './questions/18';
+import Answer18 from './questions/18/answer';
+import Question19 from './questions/19';
+import Answer19 from './questions/19/answer';
+
+import Question20 from './questions/20';
+import Answer20 from './questions/20/answer';
 
 export const questions = [
   {
@@ -207,6 +214,33 @@ export const questions = [
     answer: '',
     component: Question17,
     AnswerComponent: Answer17,
+    tips: [
+      '自己google吧'
+    ]
+  },
+  {
+    title: '只使用padding-top。一列内最后一个元素，尽量不要使用margin和padding-bottom去撑起高度。',
+    answer: '',
+    component: Question18,
+    AnswerComponent: Answer18,
+    tips: [
+      '自己google吧'
+    ]
+  },
+  {
+    title: '使用完整classname，不要使用&-去拼接scss',
+    answer: '',
+    component: Question19,
+    AnswerComponent: Answer19,
+    tips: [
+      '自己google吧'
+    ]
+  },
+  {
+    title: '原始css的reset应该在全局去做',
+    answer: '',
+    component: Question20,
+    AnswerComponent: Answer20,
     tips: [
       '自己google吧'
     ]

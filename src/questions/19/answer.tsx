@@ -24,18 +24,18 @@ const Box = ({ answerClass }: Props) => {
   return (
     <>
       <h3>
-        flex大法好！
+        try-child这个classname的名字，在scss里写全，不要用& 拼接。
+        一般拼接只用于伪元素。例如&::after
       </h3>
-      <div styleName='try try0'>
-        <img styleName='head-img' src='https://cdn.sm.cn/static/21/06/25/f1592238c6c424684c95e3bdc4178c83.png' alt='' />
+      <div styleName='try'>
+        <div styleName='try-child'>try-child</div>
       </div>
       <h3>
-        absolute maigin auto;
+        下面这种写法不建议。因为如果要修改child的样式，搜索"try-child"是搜索不到的。在长scss样式表里很容易重复定义css或者引起样式冲突
       </h3>
-      <div styleName='try try1'>
-        <img styleName='head-img' src='https://cdn.sm.cn/static/21/06/25/f1592238c6c424684c95e3bdc4178c83.png' alt='' />
+      <div styleName='try1'>
+        <div styleName='try1-child'>try-child</div>
       </div>
-      其他办法也有，但一般上面两种就解决了。兼容性也好，副作用也小。
     </>
   );
 };

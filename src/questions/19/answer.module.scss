@@ -1,0 +1,11 @@
+.try {
+  .try-child {
+    color: red;
+  }
+}
+// bad case
+.try1 {
+  &-child {
+    color: red;
+  }
+}

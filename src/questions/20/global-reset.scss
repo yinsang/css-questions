@@ -1,0 +1,7 @@
+.root {
+  // 这里假设是global引入的一个scss,不应该写在某个xxx.module.scss里
+  button {
+    outline: none;
+    border: none;
+  }
+}
