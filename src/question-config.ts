@@ -19,8 +19,10 @@ import Question8 from './questions/8';
 import Answer8 from './questions/8/answer';
 import Question9 from './questions/9';
 import Answer9 from './questions/9/answer';
-import Question10 from './questions/9';
-import Answer10 from './questions/9/answer';
+import Question10 from './questions/10';
+import Answer10 from './questions/10/answer';
+import Question11 from './questions/11';
+import Answer11 from './questions/11/answer';
 
 export const questions = [
   {
@@ -110,14 +112,35 @@ export const questions = [
     ]
   },
   {
-    title: '实现图片在div的最右侧',
+    title: 'flex 实现图片在div的最右侧',
     answer: '',
     component: Question9,
     AnswerComponent: Answer9,
     tips: [
       'https://www.ruanyifeng.com/blog/2015/07/flex-grammar.html',
       'https://developer.mozilla.org/zh-CN/docs/Web/CSS/flex',
-      'https://developer.mozilla.org/zh-CN/docs/Web/CSS/margin'
+      'https://developer.mozilla.org/zh-CN/docs/Web/CSS/margin',
+      'https://www.zhangxinxu.com/wordpress/2010/01/css-float%E6%B5%AE%E5%8A%A8%E7%9A%84%E6%B7%B1%E5%85%A5%E7%A0%94%E7%A9%B6%E3%80%81%E8%AF%A6%E8%A7%A3%E5%8F%8A%E6%8B%93%E5%B1%95%E4%B8%80/',
+      'https://www.xinran001.com/frontend/162.html'
+    ]
+  },
+  {
+    title: '善用font的继承。给下面所有字体都设置  font-family: fantasy;',
+    answer: '',
+    component: Question10,
+    AnswerComponent: Answer10,
+    tips: [
+      'https://developer.mozilla.org/zh-CN/docs/Web/CSS/font-family'
+    ]
+  },
+  {
+    title: '忘记!important吧。',
+    answer: '',
+    component: Question11,
+    AnswerComponent: Answer11,
+    tips: [
+      'https://developer.mozilla.org/zh-CN/docs/Web/CSS/Specificity',
+      'https://stackoverflow.com/questions/3706819/what-are-the-implications-of-using-important-in-css'
     ]
   }
 ];

@@ -1,7 +1,10 @@
 import React from 'react';
 import './index.module.scss';
 
-const Box = () => {
+interface Props {
+
+}
+const Box = ({}: Props) => {
   // window initial data
 
   // states
@@ -16,7 +19,10 @@ const Box = () => {
   // render
   return (
     <div styleName='try'>
-      <img styleName='head-img' src='https://img0.baidu.com/it/u=1489807627,808259306&amp;fm=26&amp;fmt=auto&amp;gp=0.jpg' alt='' />
+      father 父元素里面的字体
+      <div styleName='child'>
+        child 儿子字体
+      </div>
     </div>
   );
 };

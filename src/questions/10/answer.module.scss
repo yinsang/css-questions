@@ -1,0 +1,9 @@
+.try {
+  font-family: fantasy;
+  // 这里填写
+  .child {
+  }
+  &::after {
+    content: "我是after伪元素";
+  }
+}
