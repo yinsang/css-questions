@@ -29,6 +29,12 @@ import Question13 from './questions/13';
 import Answer13 from './questions/13/answer';
 import Question14 from './questions/14';
 import Answer14 from './questions/14/answer';
+import Question15 from './questions/15';
+import Answer15 from './questions/15/answer';
+import Question16 from './questions/16';
+import Answer16 from './questions/16/answer';
+import Question17 from './questions/17';
+import Answer17 from './questions/17/answer';
 
 export const questions = [
   {
@@ -174,6 +180,35 @@ export const questions = [
     AnswerComponent: Answer14,
     tips: [
       'https://developer.mozilla.org/zh-CN/docs/Web/CSS/background-image'
+    ]
+  },
+  {
+    title: 'div中子元素的水平居中',
+    answer: '',
+    component: Question15,
+    AnswerComponent: Answer15,
+    tips: [
+      'https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/img',
+      'https://segmentfault.com/a/1190000021249922',
+      'https://www.google.com/search?q=css%E6%B0%B4%E5%B9%B3%E5%B1%85%E4%B8%AD&rlz=1C5GCEA_enUS922US922&oq=css%E6%B0%B4%E5%B9%B3%E5%B1%85%E4%B8%AD&aqs=chrome..69i57j69i59j35i39l2j69i60l2j69i65j69i61.2555j0j7&sourceid=chrome&ie=UTF-8'
+    ]
+  },
+  {
+    title: 'div中子元素的垂直居中',
+    answer: '',
+    component: Question16,
+    AnswerComponent: Answer16,
+    tips: [
+      'https://www.google.com/search?q=css%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD&rlz=1C5GCEA_enUS922US922&sxsrf=AOaemvKIRPoWYgWBZl7NI9bv7HfQGIP2kw%3A1637293577545&ei=CR6XYZndILW2qtsPqJ23uAQ&ved=0ahUKEwjZhdTwwaP0AhU1m2oFHajODUcQ4dUDCA4&uact=5&oq=css%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD&gs_lcp=Cgdnd3Mtd2l6EAMyBwgAEEcQsAMyBwgAEEcQsANKBAhBGABQAFgAYIPLEmgBcAN4AIABAIgBAJIBAJgBAMgBAsABAQ&sclient=gws-wiz'
+    ]
+  },
+  {
+    title: 'div中子元素的水平垂直居中',
+    answer: '',
+    component: Question17,
+    AnswerComponent: Answer17,
+    tips: [
+      '自己google吧'
     ]
   }
 ];

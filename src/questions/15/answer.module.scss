@@ -1,0 +1,23 @@
+.try {
+  height: 100px;
+  outline: 1px solid red;
+  .head-img {
+    height: 30px;
+    outline: 1px solid green;
+  }
+}
+.try0 {
+  text-align: center;
+}
+
+.try1 {
+  .head-img {
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+.try2 {
+  display: flex;
+  justify-content: center;
+}
