@@ -24,15 +24,14 @@ const Box = ({ answerClass }: Props) => {
   return (
     <div>
       <h3>
-        为什么只定一个值？
+        图片上放文字的场景。非常适合用background-image。
+        如果直接就绝对定位，那代码量既大，重构起来又困难，还需要计算位置。非常繁琐。
         <br />
-        1. 宽高是可以自动撑起的。图片通常是需要不变形。所以自适应最好的
-        <br />
-        2. 图片可能会替换。例如图中可能换成【夸克的便利店】。我们写死高度则直接换图就好。如果写死了width+height是不是需要再返工CSS？
-        <br />
-        有时需要写死宽，这个酌情决定。
+        学会利用文档流去布局，尽量少的使用float、absolute等脱离文档流的方式。
       </h3>
-      <img styleName='head-img' src='https://cdn.sm.cn/static/21/06/25/f1592238c6c424684c95e3bdc4178c83.png' alt='' />
+      <nav styleName='banner-inner'>
+        <h2 styleName='title'>让创作被看到，让分享有价值</h2>
+      </nav>
     </div>
   );
 };

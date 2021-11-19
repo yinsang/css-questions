@@ -23,6 +23,12 @@ import Question10 from './questions/10';
 import Answer10 from './questions/10/answer';
 import Question11 from './questions/11';
 import Answer11 from './questions/11/answer';
+import Question12 from './questions/12/index.module';
+import Answer12 from './questions/12/answer';
+import Question13 from './questions/13';
+import Answer13 from './questions/13/answer';
+import Question14 from './questions/14';
+import Answer14 from './questions/14/answer';
 
 export const questions = [
   {
@@ -141,6 +147,33 @@ export const questions = [
     tips: [
       'https://developer.mozilla.org/zh-CN/docs/Web/CSS/Specificity',
       'https://stackoverflow.com/questions/3706819/what-are-the-implications-of-using-important-in-css'
+    ]
+  },
+  {
+    title: 'img宽高只保留一个就好。设置图片高30px，宽度自适应',
+    answer: '',
+    component: Question12,
+    AnswerComponent: Answer12,
+    tips: [
+      'https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/img'
+    ]
+  },
+  {
+    title: '写class，别直接用标签名。给div中的span设置color 红色',
+    answer: '',
+    component: Question13,
+    AnswerComponent: Answer13,
+    tips: [
+      'https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/img'
+    ]
+  },
+  {
+    title: '灵活切换img和background-image。进行图文最佳结合',
+    answer: '',
+    component: Question14,
+    AnswerComponent: Answer14,
+    tips: [
+      'https://developer.mozilla.org/zh-CN/docs/Web/CSS/background-image'
     ]
   }
 ];

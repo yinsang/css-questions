@@ -1,0 +1,19 @@
+// 可重构html和css
+.banner-inner {
+  height: 512px;
+  width: 1300px;
+  position: relative;
+  .header {
+    width: 100%;
+    height: 100%;
+  }
+  h2 {
+    // 这里是reset范畴
+    margin: 0;
+  }
+  h2 {
+    position: absolute;
+    top: 114px;
+    left: 110px;
+  }
+}

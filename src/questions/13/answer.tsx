@@ -22,15 +22,17 @@ const Box = ({ answerClass }: Props) => {
   // classVariables
   // render
   return (
-    <div className='box'>
-      <h3>
-        flex和margin-left:auto 结合可以使元素右对齐。具体原因可以自己研究。
-        为什么不用float呢？float脱离了文档流。会造成各种各样的问题，可以自己研究。
-        <br />
-        尽量忘记float吧。这是旧时代的产物了，真没什么用。
-      </h3>
+    <div>
       <div styleName='try'>
-        <img styleName='head-img' src='https://img0.baidu.com/it/u=1489807627,808259306&amp;fm=26&amp;fmt=auto&amp;gp=0.jpg' alt='' />
+        <h3>最好给对应的按钮设置class。如果直接设置在span标签上，那有可能造成再加span时还需要重构。</h3>
+        <span styleName='button'>确定</span>
+        <span styleName='button'>取消</span>
+      </div>
+      <div styleName='try-errror'>
+        <h3>有时会用X做关闭按钮。这不就不符合预期了吗？</h3>
+        <span >确定</span>
+        <span >取消</span>
+        <span >X</span>
       </div>
     </div>
   );

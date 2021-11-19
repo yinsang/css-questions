@@ -1,5 +1,5 @@
 import React from 'react';
-import './index.scss';
+import './index.module.scss';
 
 interface Props {
 
@@ -18,11 +18,9 @@ const Box = ({}: Props) => {
   // classVariables
   // render
   return (
-    <div>
-      不用important怎么修改antd-modal里的背景色呢？
-      <div className='antd-modal'>
-        一个弹窗
-      </div>
+    <div styleName='try'>
+      <span>确定</span>
+      <span>取消</span>
     </div>
   );
 };
