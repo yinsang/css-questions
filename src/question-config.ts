@@ -45,7 +45,7 @@ import Answer20 from './questions/20/answer';
 
 export const questions = [
   {
-    title: '考察box-sizing。将div设置为：总宽为100px的盒子。两个解法',
+    title: 'box-sizing。将div设置为：总宽为100px的盒子。两个解法',
     answer: '',
     component: Question0,
     AnswerComponent: Answer0,
@@ -54,7 +54,7 @@ export const questions = [
     ]
   },
   {
-    title: '考察outline。学会用outline调试各种css问题。给div套上1px、红色的outline',
+    title: 'outline。学会用outline调试各种css问题。给div套上1px、红色的outline',
     answer: '',
     component: Question1,
     AnswerComponent: Answer1,
@@ -63,7 +63,7 @@ export const questions = [
     ]
   },
   {
-    title: '给文字设置字号和行高。自动撑起高度为高度30px',
+    title: '考察字体和行高的自动撑起高度。给文字设置字号和行高，自动撑起高度为高度30px',
     answer: '',
     component: Question2,
     AnswerComponent: Answer2,
@@ -72,7 +72,7 @@ export const questions = [
     ]
   },
   {
-    title: '用class，不要用nth-child。给div中的第2个元素设置红色字体',
+    title: '尽量杜绝使用nth-child。用class，不要用nth-child，给div中的第2个元素设置红色字体',
     answer: '',
     component: Question3,
     AnswerComponent: Answer3,
@@ -81,7 +81,7 @@ export const questions = [
     ]
   },
   {
-    title: '用padding，少用margin。给子元素增加向上的距离20px',
+    title: '用padding撑起垂直边距。用padding，给子元素增加向上的距离20px',
     answer: '',
     component: Question4,
     AnswerComponent: Answer4,
@@ -172,7 +172,7 @@ export const questions = [
     ]
   },
   {
-    title: '写class，别直接用标签名。给div中的span设置color 红色',
+    title: '写class，不要直接用标签名。给div中的span设置color 红色',
     answer: '',
     component: Question13,
     AnswerComponent: Answer13,
@@ -181,7 +181,7 @@ export const questions = [
     ]
   },
   {
-    title: '灵活切换img和background-image。进行图文最佳结合',
+    title: '使用background-img合理的做背景图。灵活切换img和background-image。进行图文最佳结合',
     answer: '',
     component: Question14,
     AnswerComponent: Answer14,
@@ -219,7 +219,7 @@ export const questions = [
     ]
   },
   {
-    title: '只使用padding-top。一列内最后一个元素，可以用padding-bottom去撑起高度。高度撑起时尽量不要使用margin',
+    title: '尽量使用padding-top去撑起子元素。如果是一列内最后一个元素，可以用padding-bottom去撑起高度。高度撑起时尽量不要使用margin',
     answer: '',
     component: Question18,
     AnswerComponent: Answer18,
