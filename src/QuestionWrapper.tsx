@@ -66,7 +66,7 @@ const QuestionWrapper = ({ Question, AnswerComponent }: Props) => {
         {
           `标记为${isKnow ? '未' : '已'}学会`
         }
-        <input type='checkbox' checked={isKnow} readOnly disabled />
+        <input styleName='checkbox' type='checkbox' checked={isKnow} readOnly disabled />
       </button>
 
       <Link to='/'>
