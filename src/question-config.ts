@@ -219,7 +219,7 @@ export const questions = [
     ]
   },
   {
-    title: '只使用padding-top。一列内最后一个元素，尽量不要使用margin和padding-bottom去撑起高度。',
+    title: '只使用padding-top。一列内最后一个元素，可以用padding-bottom去撑起高度。高度撑起时尽量不要使用margin',
     answer: '',
     component: Question18,
     AnswerComponent: Answer18,
