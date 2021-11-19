@@ -32,7 +32,10 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 export default defineConfig({
-  ...base,
+  // ...base,
+  build: {
+    outDir: 'docs'
+  },
   resolve: {
     alias: [
       {
