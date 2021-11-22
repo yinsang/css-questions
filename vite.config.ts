@@ -33,6 +33,7 @@ if (process.env.NODE_ENV === 'production') {
 
 export default defineConfig({
   // ...base,
+  base: '/css-questions/',
   build: {
     outDir: 'docs'
   },
