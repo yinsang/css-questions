@@ -1,10 +1,10 @@
 # 用于CSS学习
 ## 两种学习方案
 ### Chrome
-打开 http://h5-test.alibaba.net/blm/css-questions-184/index 通过chrome控制台直接编写css
+打开 https://yinsang.github.io/css-questions/#/ 通过chrome控制台直接编写css
 ### 本地启动拷贝项目编程
 ```
-git clone git@gitlab.alibaba-inc.com:bloom-pages/css-question-184.git
+git clone git@github.com:yinsang/css-questions.git
 ```
 切一个属于你自己的分支,可以用工号
 ```
@@ -23,6 +23,6 @@ npm start
 在/src/questions/x/index.tsx  和 /src/questions/x/index.module.scss 进行操作学习scss
 其他文件
 
-如有想学习的知识点，请私聊 yinpeng.wyp@alibaba-inc.com 更新css题库
+如有想学习的知识点，请私聊 love1175180338@gmail.com 更新css题库
 ### 版权所有
 ##### 银鹏

@@ -11,7 +11,8 @@
     "start": "vite",
     "create": "npx generate-react-cli component",
     "publish": "vite build",
-    "build": "vite build"
+    "build": "vite build",
+    "push": "git push github"
   },
   "dependencies": {
     "normalize.css": "^8.0.1",
