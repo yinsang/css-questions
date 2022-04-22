@@ -1,7 +1,7 @@
 # 用于CSS学习
 ## 两种学习方案
 ### Chrome
-打开 http://h5-test.alibaba.net/blm/css-questions-184/index 通过chrome控制台直接编写css
+打开 https://yinsang.github.io/css-questions/#/ 通过chrome控制台直接编写css
 ### 本地启动拷贝项目编程
 ```
 git clone git@gitlab.alibaba-inc.com:bloom-pages/css-question-184.git
